@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+  />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Web App Assignment</title>
+  </head>
+  <body>
+    <!-- the social icons -->
+    <div class="icons">
+      <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+      <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+      <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></i></a>
+    </div>
+    <!-- the navbar -->
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a href="#" class="navbar-brand font-weight-bold text-dark">Creative Agency</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- because the bootstrap is mobile first by default -->
+        <div class="collapse navbar-collapse " id="navbarMenu">
+          <ul class="navbar-nav ml-auto font-weight-bold">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">How it works</a></li>
+          </ul>
+        </div>
+  
+      </nav>
+      <!-- background image -->
+      <!-- <div class="card">
+        <img class="card__image" src="assets/carousel-1.jpg" alt="">
+      </div>
+
+    </header> -->
+    
+    <!-- Hero section -->
+    <section id="card__image" class="pt-5 pb-5 pb-0 homepage-hero-module" style="background-size: cover; min-height: 75vh; background-image: url(assets/carasoul.jpg);" >
+      <div class="bg-overlay position-absolute"></div>
+      <div class="container position-relative zindex-1 pt-3 pb-3">
+        <div class="row  text-center align-content-center justify-content-between ">
+          <div class="col-12 col-md-7 pr-md-5 text-left align-self-center "> 
+            <h1 class="mb-4 text-white font-weight-bold  "><strong>Welcome to the community!</strong></h1>
+           
+            <p class="lead font-weight-bold text-white">We are an exclusive community of marketers influencing the marketing world using there industry experience, would like to us too? Sign up below and start getting rewarded.</p>
+            <p class="text-h3 mt-4">
+              <a href="#" class="btn btn btn-outline-light bg-transparent text-white">Register!</a>
+            </p>
+          </div>
+          <div class="col-12  col-md-5 ">
+            <div class="card shadow-lg border bg-transparent text-white text-left h-100">
+              <div class="card-body bg-transparent px-4">
+                <!-- <h3 class="pb-3 font-weight-bold text-center">Register for free Trial - get 10% off when you Buy</h3> -->
+                <form action="#" method="post" class="registration-form">
+                  <div class="form-group">
+                    <label class="sr-only" for="form-name">First name</label>
+                    <input type="text" name="form-name" placeholder="Enter Your Name..." class="form-name form-control-lg form-control" id="form-name">
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="form-email">Email</label>
+                    <input type="text" name="form-email" placeholder="Email Address..." class="form-email  form-control-lg form-control" id="form-email">
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="form-phone">Phone</label>
+                    <input type="text" name="form-phone" placeholder="Phone No..." class="form-phone  form-control-lg form-control" id="form-phone">
+                  </div>
+                  <button type="submit" class="btn btn-outline-dark btn-lg bg-transparent mt-2 shadow-lg text-dark">Sign in!</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- About us -->
+<section id="about-us">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="position-relative col-xl-6 col-lg-6 col-md-6">
+        <!-- <img src="./assets/bootstrap/responsive-website-with-bootstrap.png" alt="responsive webite" class="img-fluid"> -->
+        <img src="assets/about-1.jpg" alt="" class="img1 img-fluid w-25 p-3 position-absolute">
+        <img src="assets/about-2.jpg" alt="" class="img2 img-fluid w-25 p-3 position-absolute">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-s ">
+        <h2>Bootstrap Responsive Website</h2>
+        <p>Bootstrap is a famous front-end framework used to create mobile-first responsive websites. The latest release
+          version of bootstrap has removed JQuery dependency not fully work on vanilla javascript.</p>
+        <p>Using bootstrap it becomes very easy to build a responsive website.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- How it works section -->
+<div class="card text-center ">
+  <h1>How it Works</h1>
+  <div class="card-header ">
+    Featured
+  </div>
+  <div class="card-body border border-light">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Register!</a>
+  </div>
+ 
+</div>
+<!-- the 3 cards -->
+<section class="p-5">
+  <div class="container">
+    <div class="row text-center g-4">
+      <div class="col-md">
+        <div class="card bg-dark text-light">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+              <i class="bi bi-laptop"></i>
+            </div>
+            <h3 class="card-title mb-3">Virtual</h3>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Iure, quas quidem possimus dolorum esse eligendi?
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card bg-secondary text-light">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+              <i class="bi bi-person-square"></i>
+            </div>
+            <h3 class="card-title mb-3">Hybrid</h3>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Iure, quas quidem possimus dolorum esse eligendi?
+            </p>
+            <a href="#" class="btn btn-dark">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card bg-dark text-light">
+          <div class="card-body text-center">
+            <div class="h1 mb-3">
+              <i class="bi bi-people"></i>
+            </div>
+            <h3 class="card-title mb-3">In Person</h3>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Iure, quas quidem possimus dolorum esse eligendi?
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact form -->
+  <!--Section: contact-->
+<section id="contact" class="py-5" style="background-color: hsla(209, 78%, 16%);">
+
+  <div class="container">
+
+      <!-- Section heading -->
+      <h2 class="h1-responsive font-weight-bold text-light text-center mb-5">Contact us</h2>
+      <!-- Section description -->
+      <p class="text-center w-responsive mx-auto text-light mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+
+      <!-- Grid row -->
+      <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-9 mb-md-0 mb-5">
+
+          <form>
+
+              <!-- Grid row -->
+              <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-6">
+                  <div class="md-form mb-0">
+                  <input type="text" id="contact-name" class="form-control">
+                  <label for="contact-name" class="text-light">Your name</label>
+                  </div>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-6">
+                  <div class="md-form mb-0">
+                  <input type="text" id="contact-email" class="form-control">
+                  <label for="contact-email" class="text-light">Your email</label>
+                  </div>
+              </div>
+              <!-- Grid column -->
+
+              </div>
+              <!-- Grid row -->
+
+              <!-- Grid row -->
+              <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-12">
+                  <div class="md-form mb-0">
+                  <input type="text" id="contact-Subject" class="form-control">
+                  <label for="contact-Subject" class="text-light">Subject</label>
+                  </div>
+              </div>
+              <!-- Grid column -->
+
+              </div>
+              <!-- Grid row -->
+
+              <!-- Grid row -->
+              <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-12">
+                  <div class="md-form">
+                  <textarea type="text" id="contact-message" class="form-control md-textarea text-light" rows="3"></textarea>
+                  <label for="contact-message">Your message</label>
+                  </div>
+              </div>
+              <!-- Grid column -->
+
+              </div>
+              <!-- Grid row -->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <button class="btn btn-white btn-md">Send</button>
+          </div>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li>
+              <i class="fas fa-map-marker-alt fa-2x text-light"></i>
+              <p class="text-light font-weight-bold">San Francisco, CA 94126, USA</p>
+              </li>
+              <li>
+              <i class="fas fa-phone fa-2x mt-4 text-light"></i>
+              <p class="text-light font-weight-bold">+ 01 234 567 89</p>
+              </li>
+              <li>
+              <i class="fas fa-envelope fa-2x mt-4 text-light"></i>
+              <p class="mb-0 text-light font-weight-bold">contact@example.com</p>
+              </li>
+          </ul>
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+  </div>
+
+</section>
+<!--Section: contact-->
+  <!-- <div class="main row">
+    
+    
+  </div>
+  <div class="about-text card shadow-lg border bg-transparent text-white text-right ">
+    <h1>About us</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae autem molestiae, amet hic velit voluptatibus rem cupiditate ut! Quod, sint voluptas placeat provident exercitationem commodi dolore repudiandae adipisci excepturi et.</p>
+  </div> -->
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  </body>
+
+</html>
