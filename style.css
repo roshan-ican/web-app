@@ -116,3 +116,11 @@ main {
 .img2 {
   position: absolute;
 }
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+}
