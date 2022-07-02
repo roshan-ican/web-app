@@ -124,3 +124,33 @@ main {
   text-decoration: none;
   margin: 5px 10px;
 }
+
+#img1 {
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 2;
+}
+
+#img2 {
+  display: block;
+
+  position: absolute;
+}
+
+.img1,
+.img2 {
+  width: 200px;
+  height: 200px;
+}
+.img1 {
+  left: 50px;
+  top: 50px;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+  width: 25%;
+}
