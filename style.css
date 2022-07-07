@@ -166,3 +166,8 @@ main {
 img {
   width: 100%;
 }
+
+.how-it-works-img {
+  height: 108px;
+  object-fit: contain;
+}
